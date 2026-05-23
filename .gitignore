@@ -1,0 +1,49 @@
+# ── Secrets & OAuth (NEVER commit) ──
+credentials.json
+google/token.json
+token.json
+*.pem
+*.key
+.env
+.env.*
+!.env.example
+
+# ── Local runtime data ──
+reminders.json
+google/search_config.json
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+
+# ── IDE / OS ──
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs & caches ──
+*.log
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ── Model caches (sentence-transformers downloads) ──
+.huggingface/
+
+# ── Screenshots saved by MCP (user home, but ignore if local copy) ──
+MCP_Screenshots/
+
+# ── Cursor / local MCP overrides (optional) ──
+.cursor/mcp.json
