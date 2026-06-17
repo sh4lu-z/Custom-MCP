@@ -3,7 +3,7 @@
 > **Model Context Protocol (MCP)** server collection for **Cursor**, **Claude Desktop**, and **LM Studio** on Windows.  
 > Local PC control, Google Workspace (Gmail, Sheets, Docs, Drive, Calendar, …), weather, news, and more.
 
----
+[![MCP Badge](https://lobehub.com/badge/mcp/sh4lu-z-custom-mcp)](https://lobehub.com/mcp/sh4lu-z-custom-mcp)
 
 ## Project structure
 
