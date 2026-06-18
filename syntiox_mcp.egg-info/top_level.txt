@@ -1,0 +1,12 @@
+clipboard_mcp
+file_mcp
+google
+master_router
+python_sandbox_mcp
+reminder_mcp
+screenshot_mcp
+search_mcp
+sri_news_mcp
+syntiox_mcp_cli
+system_mcp
+weather_mcp

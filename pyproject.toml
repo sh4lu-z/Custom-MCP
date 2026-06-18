@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "syntiox-mcp"
+version = "0.1.0"
+description = "Model Context Protocol (MCP) server collection for Cursor, Claude Desktop, and LM Studio on Windows."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp[cli]",
+    "google-api-python-client",
+    "google-auth-oauthlib",
+    "requests",
+    "sentence-transformers",
+    "psutil",
+    "GPUtil",
+    "screen-brightness-control",
+    "pycaw",
+    "comtypes",
+    "pyperclip",
+    "Pillow",
+    "pyautogui",
+    "winotify",
+    "googlesearch-python"
+]
+
+[project.scripts]
+syntiox-mcp = "syntiox_mcp_cli:main"
+
+[tool.setuptools]
+py-modules = [
+    "syntiox_mcp_cli",
+    "clipboard_mcp",
+    "file_mcp",
+    "reminder_mcp",
+    "screenshot_mcp",
+    "search_mcp",
+    "sri_news_mcp",
+    "system_mcp",
+    "weather_mcp",
+    "python_sandbox_mcp",
+    "master_router"
+]
+
+[tool.setuptools.packages.find]
+include = ["google*"]

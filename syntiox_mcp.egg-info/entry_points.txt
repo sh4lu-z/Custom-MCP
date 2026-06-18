@@ -1,0 +1,2 @@
+[console_scripts]
+syntiox-mcp = syntiox_mcp_cli:main

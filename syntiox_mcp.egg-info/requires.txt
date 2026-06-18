@@ -1,0 +1,15 @@
+mcp[cli]
+google-api-python-client
+google-auth-oauthlib
+requests
+sentence-transformers
+psutil
+GPUtil
+screen-brightness-control
+pycaw
+comtypes
+pyperclip
+Pillow
+pyautogui
+winotify
+googlesearch-python

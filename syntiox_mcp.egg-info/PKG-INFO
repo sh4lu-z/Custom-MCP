@@ -1,3 +1,27 @@
+Metadata-Version: 2.4
+Name: syntiox-mcp
+Version: 0.1.0
+Summary: Model Context Protocol (MCP) server collection for Cursor, Claude Desktop, and LM Studio on Windows.
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: mcp[cli]
+Requires-Dist: google-api-python-client
+Requires-Dist: google-auth-oauthlib
+Requires-Dist: requests
+Requires-Dist: sentence-transformers
+Requires-Dist: psutil
+Requires-Dist: GPUtil
+Requires-Dist: screen-brightness-control
+Requires-Dist: pycaw
+Requires-Dist: comtypes
+Requires-Dist: pyperclip
+Requires-Dist: Pillow
+Requires-Dist: pyautogui
+Requires-Dist: winotify
+Requires-Dist: googlesearch-python
+Dynamic: license-file
+
 <div align="center">
   <h1>⚙️ Syntiox MCP Tools</h1>
   <p><b>Model Context Protocol (MCP) server collection for Cursor, Claude Desktop, and LM Studio on Windows.</b></p>
